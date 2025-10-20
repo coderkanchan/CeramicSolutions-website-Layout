@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <div className="w-full px-3 absolute z-20 top-9 ">
      {/* <nav className={`max-w-[1320px] rounded-3xl min-h-[87px] mx-auto px-4 flex items-center justify-between ${isHome ? "bg-white" : "bg-[#FF0000]"}`}> */}
-     <nav className="max-w-[1320px] rounded-3xl min-h-[87px] mx-auto px-4 flex items-center justify-between">
+     <nav className="max-w-[1320px] rounded-3xl min-h-[87px] mx-auto px-4 flex items-center justify-between bg-white">
 
         <div className='w-full xl:max-w-[110px]  max-w-[95px]'>
           <img className='w-full h-full' src={logo} />
