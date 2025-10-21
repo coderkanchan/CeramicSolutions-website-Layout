@@ -18,7 +18,7 @@ const NavLinks = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-   const isHome = location.pathname === '/';
+   const isHome = location.pathname === '/CeramicSolutions-Website-Layout';
 
   useEffect(() => {
     setIsOpen(false);
@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full px-3 absolute z-20 top-9 ">
-      
+
      <nav className={`max-w-[1320px] rounded-3xl min-h-[87px] mx-auto px-4 flex items-center justify-between ${isHome ? "bg-white" : "bg-[#FF0000]"}`} >
 
      {/* <nav className="max-w-[1320px] rounded-3xl min-h-[87px] mx-auto px-4 flex items-center justify-between bg-white"> */}
