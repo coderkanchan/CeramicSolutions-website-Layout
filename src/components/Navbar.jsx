@@ -18,6 +18,7 @@ const NavLinks = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
    const isHome = location.pathname === '/';
 
   useEffect(() => {
