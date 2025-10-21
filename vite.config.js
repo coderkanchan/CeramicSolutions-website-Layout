@@ -6,6 +6,6 @@ const repoName = 'CeramicSolutions-Website-Layout';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
   base: `/${repoName}/`
 })
