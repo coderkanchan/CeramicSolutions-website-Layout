@@ -7,7 +7,7 @@ import Section4 from './Components/Section4.jsx';
 import Section5 from "./Components/Section5.jsx";
 import Section6 from "./Components/Section6.jsx";
 import Section7 from "./Components/Section7.jsx";
-//import Section8 from "./Components/Section8.jsx";
+import Section8 from "./Components/Section8.jsx";
 
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       <Section5 />
       <Section6 />
       <Section7 />
-      {/* <Section8 /> */}
+     <Section8 /> 
     </>
   )
 }
