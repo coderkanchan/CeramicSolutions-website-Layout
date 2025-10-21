@@ -18,7 +18,7 @@ const NavLinks = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-   const isHome = location.pathname === '/CeramicSolutions-Website-Layout';
+   const isHome = location.pathname === '/';
 
   useEffect(() => {
     setIsOpen(false);
